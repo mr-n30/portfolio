@@ -7,11 +7,11 @@ export default function Footer() {
         <div className="flex items-center gap-2">
           <Shield className="w-3.5 h-3.5 text-text-muted" strokeWidth={1.5} />
           <span className="font-mono text-xs text-text-muted">
-            sec<span style={{ opacity: 0.6 }}>researcher</span>
+            mr-<span style={{ opacity: 0.6 }}>n30</span>
           </span>
         </div>
         <div className="font-mono text-xs text-text-muted">
-          // exploit.dev — built with precision
+          // hexnull.io — built with precision
         </div>
         <div className="font-mono text-xs text-text-muted">
           {new Date().getFullYear()} — All rights reserved

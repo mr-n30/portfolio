@@ -3,10 +3,8 @@ import { Shield, Menu, X, Sun, Moon } from 'lucide-react';
 import { useTheme } from '../contexts/ThemeContext';
 
 const NAV_LINKS = [
-  { label: 'About', href: '#about' },
-  { label: 'Skills', href: '#skills' },
+  { label: 'About', href: '#hero' },
   { label: 'Projects', href: '#projects' },
-  { label: 'Experience', href: '#experience' },
   { label: 'Contact', href: '#contact' },
 ];
 
@@ -40,7 +38,7 @@ export default function Navbar() {
             strokeWidth={1.5}
           />
           <span className="font-mono text-sm font-medium text-text-secondary tracking-wide group-hover:text-text-primary transition-colors duration-300">
-            sec<span className="text-text-muted">researcher</span>
+            mr-<span className="text-text-muted">n30</span>
           </span>
         </a>
 

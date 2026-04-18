@@ -1,15 +1,14 @@
 import { useState, useRef } from 'react';
 import { useInView } from '../hooks/useInView';
 import { useTheme } from '../contexts/ThemeContext';
-import { Mail, Github, Linkedin, Send, ArrowRight } from 'lucide-react';
+import { Mail, Github, Send, ArrowRight } from 'lucide-react';
 import ReCAPTCHA from 'react-google-recaptcha';
 
 const RECAPTCHA_SITE_KEY = '6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI';
 
 const SOCIAL_LINKS = [
-  { icon: Mail, label: 'Email', value: 'hello@yourname.dev', href: 'mailto:hello@yourname.dev' },
-  { icon: Github, label: 'GitHub', value: 'github.com/yourname', href: 'https://github.com' },
-  { icon: Linkedin, label: 'LinkedIn', value: 'linkedin.com/in/yourname', href: 'https://linkedin.com' },
+  { icon: Mail, label: 'Email', value: 'root@hexnull.io', href: 'mailto:root@hexnull.io' },
+  { icon: Github, label: 'GitHub', value: 'github.com/mr-n30', href: 'https://github.com/mr-n30' },
 ];
 
 export default function Contact() {
@@ -97,7 +96,7 @@ export default function Contact() {
                 <div>
                   <span style={{ color: 'rgba(var(--fg), 0.2)' }}>$</span>{' '}
                   <span className="text-text-muted">ping</span>{' '}
-                  <span className="text-text-secondary">hello@yourname.dev</span>
+                  <span className="text-text-secondary">root@hexnull.io</span>
                 </div>
                 <div>
                   <span style={{ color: 'rgba(var(--fg), 0.2)' }}>$</span>
@@ -127,7 +126,7 @@ export default function Contact() {
                 </div>
                 <h3 className="text-text-primary font-semibold text-lg mb-2">Message sent</h3>
                 <p className="text-text-secondary text-sm font-mono">
-                  I'll get back to you within 24 hours.
+                  I'll get back to you within 24 hours. (Note: This is a demo form, so no actual messages are sent.)
                 </p>
                 <button
                   onClick={() => setSent(false)}

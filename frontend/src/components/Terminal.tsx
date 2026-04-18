@@ -22,7 +22,7 @@ export default function Terminal() {
 
       <div className="p-5 font-mono text-sm space-y-1 min-h-[180px]">
         <div className="text-xs mb-3.5">
-          <span style={{ color: 'rgba(var(--fg), 0.5)' }}>root@exploit.dev</span>
+          <span style={{ color: 'rgba(var(--fg), 0.5)' }}>root@hexnull.io</span>
           <span style={{ color: 'rgba(var(--fg), 0.2)' }}>:~$ ./init-profile.sh</span>
         </div>
 

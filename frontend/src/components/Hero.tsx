@@ -35,8 +35,8 @@ export default function Hero() {
               </div>
 
               <h1 className="text-5xl lg:text-6xl xl:text-7xl font-bold text-text-primary leading-[1.05] tracking-tight">
-                Your{' '}
-                <span className="glow-text">Name</span>
+                Noe{' '}
+                <span className="glow-text">Preciado</span>
               </h1>
             </div>
 
@@ -45,7 +45,7 @@ export default function Hero() {
               style={{ animationFillMode: 'forwards' }}
             >
               <p className="font-mono text-sm tracking-wide" style={{ color: 'rgba(var(--fg), 0.3)' }}>
-                Cybersecurity Researcher
+                Security Engineer
                 <span className="mx-2.5" style={{ color: 'rgba(var(--fg), 0.15)' }}>·</span>
                 Bug Bounty Hunter
                 <span className="mx-2.5" style={{ color: 'rgba(var(--fg), 0.15)' }}>·</span>
@@ -83,18 +83,41 @@ export default function Hero() {
               style={{ animationFillMode: 'forwards' }}
             >
               <a
-                href="https://github.com"
+                href="https://github.com/mr-n30"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-text-muted hover:text-text-secondary transition-colors duration-200"
               >
                 <Github className="w-4 h-4" />
-                <span className="font-mono text-xs">github.com/yourname</span>
+                <span className="font-mono text-xs">github.com/mr-n30</span>
               </a>
-              <div className="w-px h-3.5 bg-bg-border" />
-              <div className="font-mono text-xs text-text-muted">
-                <span className="text-text-secondary">500+</span> bugs filed
-              </div>
+              <a
+                href="https://bugcrowd.com/h/n30"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-text-muted hover:text-text-secondary transition-colors duration-200"
+              >
+                <Github className="w-4 h-4" />
+                <span className="font-mono text-xs">bugcrowd.com/h/n30</span>
+              </a>
+              <a
+                href="https://nvd.nist.gov/vuln/detail/CVE-2024-45384"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-text-muted hover:text-text-secondary transition-colors duration-200"
+              >
+                <Github className="w-4 h-4" />
+                <span className="font-mono text-xs">CVE-2024-45384</span>
+              </a>
+              <a
+                href="https://nvd.nist.gov/vuln/detail/CVE-2023-40171"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-text-muted hover:text-text-secondary transition-colors duration-200"
+              >
+                <Github className="w-4 h-4" />
+                <span className="font-mono text-xs">CVE-2023-40171</span>
+              </a>
             </div>
           </div>
 
